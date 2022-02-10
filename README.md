@@ -12,13 +12,13 @@ All the cities that we may traverse while travelling from the start city to the 
 ## Initial state ##
  It is the start city that is given as the input.
 
-## Goal state## 
+## Goal state ## 
 It is the end city with the minimum cost factor given as input.
 
-## Successor state##
+## Successor state ##
  All the cities which can be traversed from the current city.
 
-##Cost function##
+## Cost function ##
  There are 4 different cost functions depending upon the cost given as the input that is distance, segments, delivery hour and time. Cost for the segment function is always 1 and the rest depends on the highway connecting two cities. Distance depends on the length of the highway, time depends upon the length and the speed limit and delivery hours also depends on the length, speed limit and aslo on distance traveled form start city to start point of the highway.
 
 ## Approach and design decisions ##
